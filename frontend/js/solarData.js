@@ -627,27 +627,27 @@ export const JOURNEY_TIMELINE = [
 export const LEADERSHIP = [
   {
     name: "N. Srinivasa Rao",
+    initials: "NSR",
     role: "Chairman & Managing Director",
-    bio: "Over 25 years of leadership in power distribution, heavy electrical engineering, and renewable energy. Founded N Solutions with a vision to deliver dependable clean power.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&auto=format"
+    bio: "Over 25 years of leadership in power distribution, heavy electrical engineering, and renewable energy. Founded N Solutions with a vision to deliver dependable clean power."
   },
   {
     name: "Dr. K. V. Ramanamurthy",
+    initials: "KVR",
     role: "Director — Technical & Engineering",
-    bio: "M.Tech & Ph.D in Power Systems with 18+ years designing high-voltage substations, grid sync architectures, and utility-scale PV plants.",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&auto=format"
+    bio: "M.Tech & Ph.D in Power Systems with 18+ years designing high-voltage substations, grid sync architectures, and utility-scale PV plants."
   },
   {
     name: "M. Rajesh Varma",
+    initials: "MRV",
     role: "Head of Projects & EPC Execution",
-    bio: "Solar industry veteran who has overseen 120+ MW of solar installations across South India. Specializes in rapid-deployment rooftop and ground systems.",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&auto=format"
+    bio: "Solar industry veteran who has overseen 120+ MW of solar installations across South India. Specializes in rapid-deployment rooftop and ground systems."
   },
   {
     name: "P. Lakshmi Prasanna",
+    initials: "PLP",
     role: "Head of PM Surya Ghar Operations",
-    bio: "Leads our residential rooftop initiatives and government portal liaison, delivering the 500+ site milestone at Vizianagaram in record time.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&auto=format"
+    bio: "Leads our residential rooftop initiatives and government portal liaison, delivering the 500+ site milestone at Vizianagaram in record time."
   }
 ];
 

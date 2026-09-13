@@ -502,7 +502,12 @@ class NSolutionsApp {
     if (leaderContainer) {
       leaderContainer.innerHTML = LEADERSHIP.map(l => `
         <div class="leader-card">
-          <img src="${l.image}" alt="${l.name}" class="leader-img" loading="lazy">
+          <div class="leader-avatar-banner">
+            <div class="leader-avatar-circle">
+              <span>${l.initials || l.name.charAt(0)}</span>
+            </div>
+            <div class="leader-badge"><i data-lucide="shield-check"></i> Executive Board</div>
+          </div>
           <div class="leader-body">
             <h4 class="leader-name">${l.name}</h4>
             <span class="leader-role">${l.role}</span>
@@ -510,6 +515,7 @@ class NSolutionsApp {
           </div>
         </div>
       `).join('');
+      createIcons({ icons });
     }
 
     // 2. Journey Timeline
